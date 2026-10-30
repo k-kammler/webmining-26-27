@@ -1,0 +1,29 @@
+# 01 Python-Einführung
+numpy
+pandas
+
+# 02 + 03 Web-Scraping
+requests
+beautifulsoup4
+lxml
+cssselect
+newspaper3k
+lxml_html_clean
+boilerpy3
+fake-useragent
+selenium
+
+# 04 Web-Crawling
+scrapy
+nltk
+
+# 05 APIs
+flask
+flask-accept
+
+# 07 Datenvisualisierung
+matplotlib
+networkx
+plotly
+squarify
+streamlit

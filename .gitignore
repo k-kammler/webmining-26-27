@@ -1,0 +1,21 @@
+# Originalmaterial (Folien und Zip-Archive)
+*.pdf
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+mein_env/
+.venv/
+venv/
+
+# Von den Beispielen erzeugte Dateien
+*.png
+neue_daten.csv
+quotes.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
