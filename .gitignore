@@ -5,6 +5,9 @@
 # API-Keys
 .env
 
+# Lokale Notizen (nicht im Repo)
+_lokal/
+
 # Python
 __pycache__/
 *.pyc
