@@ -1,0 +1,5 @@
+{
+    "python.terminal.useEnvFile": true,
+    "python.terminal.executeInFileDir": true,
+    "debug.internalConsoleOptions": "openOnSessionStart"
+}
