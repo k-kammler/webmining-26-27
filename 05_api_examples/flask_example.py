@@ -34,7 +34,7 @@ def get_student(student_id):
     return "Student not found", 404
 
 @app.route('/students/<int:student_id>', methods=['GET'])
-@get_student.support('application/json')
+@get_student.support('application/json', '*/*')   # '*/*': Clients ohne bestimmten Accept-Header (z.B. curl, Postman) bekommen JSON
 def get_student_json(student_id):
     student = students.get(student_id)
     if student:

@@ -18,6 +18,7 @@ ax2.set_ylim(990, 1010)
 ax2.set_yticks(np.arange(990, 1011, 5))  
 ax2.tick_params(axis='y', labelcolor='black')
 
+plt.tight_layout()
 plt.savefig('second_axis_bar_plot.png')
 plt.show()
 

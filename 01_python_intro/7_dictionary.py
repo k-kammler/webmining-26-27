@@ -27,7 +27,7 @@ print(student)
 
 
 # # Prüfen ob Schlüssel vorhanden ist
-# print("name2" in student)   # True
+# print("name2" in student)   # False
 
 
 # # Prüfen ob Wert vorhanden ist

@@ -6,5 +6,5 @@ colors = ['red', 'green', 'blue']
 
 plt.pie(sizes, labels=labels, colors=colors, autopct='%1.2f%%', startangle=90)
 plt.title("Kreisdiagramm")
-plt.savefig('piechart.png')
+plt.savefig('pie_chart.png')
 plt.show()

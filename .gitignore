@@ -2,6 +2,9 @@
 *.pdf
 *.zip
 
+# API-Keys
+.env
+
 # Python
 __pycache__/
 *.pyc
@@ -15,7 +18,6 @@ neue_daten.csv
 quotes.json
 
 # Editor / OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db

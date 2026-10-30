@@ -4,6 +4,7 @@ pandas
 
 # 02 + 03 Web-Scraping
 requests
+certifi
 beautifulsoup4
 lxml
 cssselect
@@ -21,9 +22,13 @@ nltk
 flask
 flask-accept
 
+# 06 LLMs
+python-dotenv
+
 # 07 Datenvisualisierung
 matplotlib
 networkx
 plotly
+kaleido
 squarify
 streamlit

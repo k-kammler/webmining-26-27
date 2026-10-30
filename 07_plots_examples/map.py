@@ -12,5 +12,5 @@ data = data[data.mag >= 0]
 # Create scatter map
 fig = px.scatter_geo(data, lat='latitude', lon='longitude', color='mag',
                      hover_name='place', title='Erdbeben auf der Erde')
-#fig.show()
+fig.show()    # öffnet die interaktive Karte im Browser
 fig.write_image("earthquakes_map.png")

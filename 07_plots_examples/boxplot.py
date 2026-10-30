@@ -13,7 +13,7 @@ plt.boxplot(
     patch_artist=True,    # To enable color filling
     showmeans=True, 
     meanline=True,
-    labels=["Daten 1", "Daten 2"],
+    tick_labels=["Daten 1", "Daten 2"],
     boxprops=dict(facecolor="lightblue", color="blue"),
     medianprops=dict(color="red", linewidth=2),
     widths=((len(data1) / (len(data1) + len(data2))), (len(data2) / (len(data1) + len(data2))))

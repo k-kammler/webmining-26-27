@@ -14,3 +14,8 @@ class QuotesSpider(scrapy.Spider):
                 "author": quote.css("small.author::text").get(),
                 "tags": quote.css("div.tags a.tag::text").getall(),
             }
+
+# Aufruf im Terminal (nicht mit "python ..."):
+# scrapy runspider example_crawler_1.py
+# oder
+# scrapy runspider example_crawler_1.py -O quotes.json
