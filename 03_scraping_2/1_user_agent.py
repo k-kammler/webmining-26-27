@@ -3,12 +3,12 @@ import requests
 
 ua = UserAgent()
 
-for _ in range(100):
+for _ in range(10):
     random_user_agent = ua.random
     print(random_user_agent)
 
 headers = {'User-Agent': random_user_agent}
-response = requests.get('https://example.com', headers=headers)
+response = requests.get('https://python.org', headers=headers)
 print(response.status_code, response.request.headers['User-Agent'])
 
 # ...

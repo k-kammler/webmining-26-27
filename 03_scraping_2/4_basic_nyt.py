@@ -5,8 +5,8 @@ import requests
 url = 'https://www.nytimes.com/search?dropmab=false&endDate=2024-11-01&lang=en&query=&sort=best&startDate=2024-10-01'
 
 response = requests.get(url)
-# Hinweis: Die NYT blockt einfache Anfragen ohne Browser/JavaScript (Bot-Schutz) -> Status 403
-# Weitere Ergebnisse ("Show More") werden per AJAX nachgeladen -> siehe 5_ajax_nyt.py (Selenium)
+# Die NYT kann einfache Anfragen durch Bot-Schutz blockieren
+# (z. B. Status 403). Manche Anfragen liefern jedoch HTML mit Ergebnissen.
 
 if response.status_code == 200:
     html_content = response.text
